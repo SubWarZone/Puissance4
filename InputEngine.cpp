@@ -1,5 +1,5 @@
 #include "InputEngine.h"
-#include "SDL.h"
+#include </usr/include/SDL/SDL.h>
 #include <iostream>
 
 InputEngine::InputEngine(EngineManager* engineManagerP)

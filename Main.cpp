@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(int argc, char * argv[]) {
+int main() {
 	
     Puissance4* puissance4 = new Puissance4();
     puissance4->launch();

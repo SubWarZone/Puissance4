@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdlib.h>
-#include <SDL.h>
+#include </usr/include/SDL/SDL.h>
 
 /******************************************************************************
  * gestion de l'affichage et implantation des primitives graphiques           *

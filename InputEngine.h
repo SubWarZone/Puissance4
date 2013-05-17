@@ -1,5 +1,5 @@
 #pragma once
-#include "SDL.h"
+#include </usr/include/SDL/SDL.h>
 #include "Engine.h"
 #include "InputObject.h"
 #include <list>
