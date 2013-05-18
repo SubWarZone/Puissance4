@@ -27,7 +27,7 @@ void GraphicEngine::removeObject(DisplayObject* displayObject)
 void GraphicEngine::process()
 {
 	// on verrouille l'ecran /
-	Graphics::lock();
+    Graphics::lock();
 
 	// on remplit la fenetre avec la couleur cree au debut de la fonction
 	Graphics::fill_screen(backgroundColor);
@@ -43,5 +43,5 @@ void GraphicEngine::process()
 	Graphics::unlock();
 
 	//on attend le temps necessaire pour atteindre le taux de rafraichissement souhaite
-	Graphics::sync();
+    Graphics::sync();
 }

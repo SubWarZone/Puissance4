@@ -15,8 +15,8 @@ namespace Graphics {
 	/**
 	 * taille de la fenetre
 	 */
-	#define WIDTH  1200 
-	#define HEIGHT 720
+    #define WIDTH  800 //1200
+    #define HEIGHT 600 //720
 
 	/**
 	 * taux de rafraichissement de la fenetre (images/sec.)

@@ -54,4 +54,5 @@ void Curseur::compute() {
 
 void Curseur::display() {
     Graphics::display_image(image3,0,0);
+
 }
