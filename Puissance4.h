@@ -4,6 +4,7 @@
 
 class Puissance4
 {
+    SDL_Event* event;
     EngineManager* engineManager;
     StateManager* stateManager;
 public:

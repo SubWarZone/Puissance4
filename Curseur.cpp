@@ -53,6 +53,8 @@ void Curseur::compute() {
 }
 
 void Curseur::display() {
-    Graphics::display_image(image3,0,0);
+   Graphics::display_image(image3,0,0);
+   // Graphics::display_image_blit_on(image3, this->engineManager->GetStateEngine()->computeObjectList.?????????,0,0);
+
 
 }

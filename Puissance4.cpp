@@ -13,7 +13,7 @@ Puissance4::~Puissance4(void)
 
 void Puissance4::launch() {
     while(engineManager->GetInputEngine()->GetDisplay()) {
-            engineManager->start();//rename start();
+            engineManager->start( event);//rename start();
             stateManager->process();//rename process();
             
     }

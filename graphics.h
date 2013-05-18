@@ -101,8 +101,9 @@ namespace Graphics {
 	/**
 	 * trace un cercle remplis
 	 */
-	void fill_circle(int x, int y, int radius, Uint8 color);
+    void fill_circle(int x, int y, int radius, Uint8 color);
 
 	void display_image(SDL_Surface* image, int x, int y);
+    void display_image_blit_on(SDL_Surface* image,SDL_Surface* imagewhereblit, int x, int y);
 
 }

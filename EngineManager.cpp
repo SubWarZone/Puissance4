@@ -21,12 +21,13 @@ EngineManager::~EngineManager(void)
 
 }
 
-void EngineManager::start()
+void EngineManager::start(SDL_Event* event)
 {
 	//while(inputEngine->GetDisplay()) {
 	for (std::list<Engine*>::iterator it = engineList.begin(); it != engineList.end(); it++) {
 		(*it)->process();
 	}
+    SDL_WaitEvent(event);
 		// mettre statemanager en fonctionnement ?
 		//temps avec sleep
 	//}

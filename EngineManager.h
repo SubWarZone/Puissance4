@@ -6,6 +6,7 @@
 #include "InputEngine.h"
 #include "GraphicEngine.h"
 
+
 class Puissance4;
 
 class EngineManager {
@@ -22,7 +23,7 @@ public:
 	EngineManager(Puissance4*);
 	~EngineManager(void);
 
-	void start();
+    void start(SDL_Event*);
 
 	InputEngine* GetInputEngine();
 	StateEngine* GetStateEngine();
